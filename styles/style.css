@@ -19,7 +19,6 @@
 .nav {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -29,12 +28,13 @@
 }
 
 .nav__links {
+  margin: 8px 0 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
   list-style: none;
   column-gap: 20px;
+  padding-inline-start: 0px;
 }
 
 .nav__link {
